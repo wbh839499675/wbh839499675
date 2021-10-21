@@ -1,0 +1,23 @@
+AT+FSLSTFILE="/"
+AT+FSLSTFILE="/"
+
++FSLSTFILE: "/prepack"
++FSLSTFILE: "/nvm"
++FSLSTFILE: "/modemnvm"
++FSLSTFILE: "/simlock_data.bin",6292
++FSLSTFILE: "/sms_dm_nv.bin",37204
+
+OK
+AT+FSDWNFILE="/123.txt",5
+AT+FSDWNFILE="/123.txt",5
+
+> 11111
+> 111
+OK
+11
+AT+FSRDFILE="/123.txt"
+AT+FSRDFILE="/123.txt"
+
++FSRDFILE: /123.txt,5,> 111
+
+OK
